@@ -8,4 +8,4 @@ file (GLOB Sources
 
 add_library(lodepng ${Sources})
 install (TARGETS lodepng DESTINATION lib)
-install (FILES lodepng.h DESTINATION include)
+install (FILES lodepng.h DESTINATION include/lodepng)
